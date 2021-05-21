@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/opcion">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      ELIJE LA OPCION QUE DESEAS:"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:translationY="200dp" />
+
+        <Button
+            android:id="@+id/trabajador"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="TRABAJADOR"
+            android:textSize="18sp"
+            android:translationX="5dp"
+            android:translationY="260dp" />
+
+        <Button
+            android:id="@+id/cliente"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="CLIENTE"
+            android:textSize="18sp"
+            android:translationX="180dp"
+            android:translationY="212dp" />
+    </LinearLayout>
+
+</LinearLayout>

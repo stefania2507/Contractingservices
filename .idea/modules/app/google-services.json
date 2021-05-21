@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "898686550257",
+    "firebase_url": "https://contracting-services-8532c.firebaseio.com",
+    "project_id": "contracting-services-8532c",
+    "storage_bucket": "contracting-services-8532c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898686550257:android:3dd999d13b4493c8f62950",
+        "android_client_info": {
+          "package_name": "com.example.contractingservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898686550257-iuvfgvn69vs0pona8picommili4dqr0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.contractingservices",
+            "certificate_hash": "d224e9e64b2526448513e8892595a9cd36c97b86"
+          }
+        },
+        {
+          "client_id": "898686550257-4oe3fcv035v2q9ifsjpso5v6ri8op4nk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-tFejF2DfNZLf02BRv9Zpj06O4Tqj8Kg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898686550257-4oe3fcv035v2q9ifsjpso5v6ri8op4nk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

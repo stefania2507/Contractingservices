@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".iniciosesion">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/post"
+        android:orientation="vertical"
+        android:translationY="1dp"
+        tools:context=".iniciosesion">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+
+            android:height="@android:dimen/thumbnail_width"
+            android:background="#00FDFCFC"
+            android:text="inicio sesion"
+            android:textColor="#070707"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+
+            android:translationX="100dp"
+            android:translationY="60dp"
+            app:textLocale="@string/app_name" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="correo_electronico"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:translationX="10dp"
+            android:translationY="160dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/background_dark"
+            android:textColorHighlight="@android:color/background_dark"
+            android:translationX="8dp"
+            android:translationY="180dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="contraseña"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:translationX="5dp"
+            android:translationY="220dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:translationX="5dp"
+            android:translationY="250dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/colorPrimary"
+            android:text="entrar"
+            android:textColor="@android:color/background_dark"
+            android:textColorHighlight="@android:color/background_dark"
+            android:textColorLink="@android:color/background_dark"
+            android:translationX="150dp"
+            android:translationY="280dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="TODO"
+            android:translationX="140dp"
+            android:translationY="320dp"
+            app:srcCompat="@drawable/facebook_109862" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="TODO"
+            android:translationX="220dp"
+            android:translationY="285dp"
+            app:srcCompat="@drawable/google" />
+
+
+    </LinearLayout>
+</LinearLayout>
