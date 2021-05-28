@@ -1,6 +1,3 @@
 <resources>
-    <string name="app_name">Contracting services</string>
-    <string name="enter_email">ingrese un email</string>
-    <string name="enter_password">Ingrese una contraseña</string>
-    <string name="registrar">registrar</string>
+    <string name="app_name">cotizacion</string>
 </resources>
